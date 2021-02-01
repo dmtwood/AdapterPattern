@@ -1,4 +1,4 @@
-package com.dimidev.adapterpattern;
+package com.dimidev.adapterpattern.duckturkeyadapters;
 
 public class WildTurkey implements Turkey {
     public void gobble() {

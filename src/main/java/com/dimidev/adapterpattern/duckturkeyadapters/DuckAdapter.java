@@ -1,12 +1,12 @@
-package com.dimidev.adapterpattern;
+package com.dimidev.adapterpattern.duckturkeyadapters;
 
 import java.util.Random;
 
 public class DuckAdapter implements Turkey {
-    Dimiduck duckIF;
+    Duck duckIF;
     Random rand;
 
-    public DuckAdapter(Dimiduck duckIF) {
+    public DuckAdapter(Duck duckIF) {
         this.duckIF = duckIF;
         rand = new Random();
     }

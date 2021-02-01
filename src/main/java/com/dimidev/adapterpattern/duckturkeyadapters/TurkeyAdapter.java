@@ -1,6 +1,6 @@
-package com.dimidev.adapterpattern;
+package com.dimidev.adapterpattern.duckturkeyadapters;
 
-public class TurkeyAdapter implements Dimiduck {
+public class TurkeyAdapter implements Duck {
     Turkey turkey;
 
     public TurkeyAdapter(Turkey turkey) {

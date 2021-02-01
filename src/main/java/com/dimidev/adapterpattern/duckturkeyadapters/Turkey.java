@@ -1,4 +1,4 @@
-package com.dimidev.adapterpattern;
+package com.dimidev.adapterpattern.duckturkeyadapters;
 
 public interface Turkey {
     public void gobble();

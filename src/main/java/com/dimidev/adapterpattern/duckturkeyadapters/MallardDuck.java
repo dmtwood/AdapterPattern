@@ -1,6 +1,6 @@
-package com.dimidev.adapterpattern;
+package com.dimidev.adapterpattern.duckturkeyadapters;
 
-public class MallardDuck implements Dimiduck {
+public class MallardDuck implements Duck {
     public void quack() {
         System.out.println("Quack");
     }

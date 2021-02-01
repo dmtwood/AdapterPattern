@@ -1,4 +1,4 @@
-package com.dimidev.adapterpattern;
+package com.dimidev.adapterpattern.duckturkeyadapters;
 
 public class DuckAdapterApp {
     public static void main(String[] args) {
